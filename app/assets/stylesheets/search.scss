@@ -1,0 +1,22 @@
+// Place all the styles related to the search controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  margin: 0;
+  padding: 20px;
+  color: #332121;
+  font-family: 'Lato', 'メイリオ', 'Meiryo', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'ＭＳ Ｐゴシック', Arial, sans-serif;
+  background-color: #e17b80;
+}
+.c-heading1 {
+  // color: #e17b80;
+}
+a {
+  color: #332121;
+  &:hover {
+    text-decoration: none;
+  }
+}
+.u-center {
+  text-align: center;
+}
