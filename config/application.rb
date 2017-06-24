@@ -17,8 +17,8 @@ module SozaiSizuccaCom
     # -- all .rb files in that directory are automatically loaded.
     if ENV['RACK_ENV'] == 'production'
       config.middleware.insert_before(Rack::Runtime, Rack::Rewrite) do
-        r301 %r{.*}, 'https://irori.sizucca.com$&', :if => Proc.new { |rack_env|
-          rack_env['SERVER_NAME'] != 'irori.sizucca.com'
+        r301 %r{.*}, 'https://sozai.sizucca.com$&', :if => Proc.new { |rack_env|
+          rack_env['SERVER_NAME'] != 'sozai.sizucca.com'
         }
       end
     end
